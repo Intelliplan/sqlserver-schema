@@ -14,3 +14,10 @@ And spits out all schemas, triggers, etc to the target location file.
 ```
 schema --server "my.server.tld" --password SECRET --username Ulf --file-path './my-db.sql'
 ```
+
+## Build
+
+```
+bundle
+bundle exec rake
+```
